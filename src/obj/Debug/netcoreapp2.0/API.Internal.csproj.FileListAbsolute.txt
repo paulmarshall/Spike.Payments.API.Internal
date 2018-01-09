@@ -1,0 +1,11 @@
+c:\source\paulmarshall\Spike.Payments.API.Internal\src\obj\Debug\netcoreapp2.0\API.Internal.csproj.CoreCompileInputs.cache
+c:\source\paulmarshall\Spike.Payments.API.Internal\src\obj\Debug\netcoreapp2.0\API.Internal.AssemblyInfoInputs.cache
+c:\source\paulmarshall\Spike.Payments.API.Internal\src\obj\Debug\netcoreapp2.0\API.Internal.AssemblyInfo.cs
+C:\source\paulmarshall\Spike.Payments.API.Internal\src\obj\Debug\netcoreapp2.0\API.Internal.csprojResolveAssemblyReference.cache
+C:\source\paulmarshall\Spike.Payments.API.Internal\src\bin\Debug\netcoreapp2.0\API.Internal.deps.json
+C:\source\paulmarshall\Spike.Payments.API.Internal\src\bin\Debug\netcoreapp2.0\API.Internal.runtimeconfig.json
+C:\source\paulmarshall\Spike.Payments.API.Internal\src\bin\Debug\netcoreapp2.0\API.Internal.runtimeconfig.dev.json
+C:\source\paulmarshall\Spike.Payments.API.Internal\src\bin\Debug\netcoreapp2.0\API.Internal.dll
+C:\source\paulmarshall\Spike.Payments.API.Internal\src\bin\Debug\netcoreapp2.0\API.Internal.pdb
+C:\source\paulmarshall\Spike.Payments.API.Internal\src\obj\Debug\netcoreapp2.0\API.Internal.dll
+C:\source\paulmarshall\Spike.Payments.API.Internal\src\obj\Debug\netcoreapp2.0\API.Internal.pdb

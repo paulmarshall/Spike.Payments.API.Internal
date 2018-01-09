@@ -1,0 +1,8 @@
+POST http://localhost:5000/api/events
+Content-Type: application/json
+
+{
+    "CustomerId" : "72431edf-ad17-4bce-94bc-9a845c2bcbcc",
+    "TimeStamp": "2012-03-19T07:22Z",
+    "Name" : "CancelledDDMandate"
+}
