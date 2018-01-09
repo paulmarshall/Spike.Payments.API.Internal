@@ -5,4 +5,4 @@ install:
   - docker version
 
 build_script:
-  - docker build -t api-internal .
+  - docker build -t api-internal src
