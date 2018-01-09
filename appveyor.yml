@@ -1,6 +1,10 @@
 version: 1.0.{build}
 image: Visual Studio 2017
 
+environment:
+  DOCKER_USER: middlemarsh29
+  DOCKER_PASS: Welcome$00
+
 install:
   - docker version
   - dotnet --info
@@ -9,3 +13,7 @@ build_script:
   - dotnet restore src
   - dotnet publish src -c Release -o out
   - docker build -t api-internal src
+
+deploy_script:
+  - docker login -u="$env:DOCKER_USER" -p="$env:DOCKER_PASS"
+  - docker push api-internal
