@@ -1,3 +1,6 @@
+####
+#API in local
+
 POST http://localhost:5000/api/events
 Content-Type: application/json
 
@@ -6,3 +9,28 @@ Content-Type: application/json
     "TimeStamp": "2012-03-19T07:22Z",
     "Name" : "CancelledDDMandate"
 }
+
+####
+#API in Container
+
+####
+POST http://localhost:8080/api/events
+Content-Type: application/json
+
+{
+    "CustomerId" : "72431edf-ad17-4bce-94bc-9a845c2bcbcc",
+    "TimeStamp": "2012-03-19T07:22Z",
+    "Name" : "CancelledDDMandate.InContainer.1"
+}
+####
+POST http://localhost:8080/api/events
+Content-Type: application/json
+
+{
+    "CustomerId" : "72431edf-ad17-4bce-94bc-9a845c2bcbcc",
+    "TimeStamp": "2012-03-19T07:22Z",
+    "Name" : "CancelledDDMandate.InContainer.2"
+}
+
+###
+http://localhost:8080/api/events
