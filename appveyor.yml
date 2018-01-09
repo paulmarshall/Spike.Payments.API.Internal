@@ -12,5 +12,5 @@ build_script:
 
 deploy_script:
   - docker login -u="middlemarsh29" -p="Welcome$00"
-  - docker tag api-internal middlemarsh29/payments.api.internal:1.0.{build}
-  - docker push middlemarsh29/payments.api.internal:1.0.{build}
+  - docker tag api-internal middlemarsh29/payments.api.internal
+  - docker push middlemarsh29/payments.api.internal
