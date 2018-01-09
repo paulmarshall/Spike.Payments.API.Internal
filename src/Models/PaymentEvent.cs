@@ -2,7 +2,7 @@ using System;
 
 namespace API.Internal.Models
 {
-    public class CustomerEvent
+    public class PaymentEvent
     {
        public int Id { get; set; }
 

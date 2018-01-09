@@ -25,7 +25,7 @@ namespace API.Internal
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<CustomerEventContext>(opt => opt.UseInMemoryDatabase("CustomerEvent"));
+            services.AddDbContext<PaymentEventContext>(opt => opt.UseInMemoryDatabase("PaymentEvent"));
             services.AddMvc();
         }
 

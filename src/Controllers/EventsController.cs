@@ -10,24 +10,24 @@ namespace API.Internal.Controllers
     [Route("api/[controller]")]
     public class EventsController : Controller
     {
-        private readonly CustomerEventContext _context;
+        private readonly PaymentEventContext _context;
 
-        public EventsController(CustomerEventContext context)
+        public EventsController(PaymentEventContext context)
         {
             _context = context;
         }      
 
         // GET api/values
         [HttpGet]
-        public IEnumerable<CustomerEvent> Get()
+        public IEnumerable<PaymentEvent> Get()
         {
-            return this._context.CustomerEvents.ToList();
+            return this._context.PaymentEvents.ToList();
         }
 
         [HttpGet("{id}", Name = "GetEvent")]
         public IActionResult GetById(long id)
         {
-            var item = _context.CustomerEvents.FirstOrDefault(t => t.Id == id);
+            var item = _context.PaymentEvents.FirstOrDefault(t => t.Id == id);
             if (item == null)
             {
                 return NotFound();
@@ -37,14 +37,14 @@ namespace API.Internal.Controllers
 
         // POST api/values
         [HttpPost]
-        public IActionResult Post([FromBody]CustomerEvent item)
+        public IActionResult Post([FromBody]PaymentEvent item)
         {
             if (item == null)
             {
                 return BadRequest();
             }
 
-            _context.CustomerEvents.Add(item);
+            _context.PaymentEvents.Add(item);
             _context.SaveChanges();
 
             return CreatedAtRoute("GetEvent", new { id = item.Id }, item);            
