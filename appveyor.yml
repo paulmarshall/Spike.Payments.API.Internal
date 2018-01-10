@@ -6,8 +6,6 @@ install:
   - dotnet --info
 
 build_script:
-  - dotnet restore src
-  - dotnet publish src -c Release -o out
   - docker build -t api-internal src
 
 deploy_script:
