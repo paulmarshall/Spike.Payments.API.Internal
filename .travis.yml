@@ -1,5 +1,7 @@
 sudo: required
 
+language: ruby
+
 # whitelist
 branches:  
   only:
