@@ -1,4 +1,4 @@
-language: ruby
+sudo: required
 
 # whitelist
 branches:  
@@ -10,7 +10,7 @@ services:
     - docker
 
 before_install:  
-    - docker login -u="middlemarsh29" -p="Welcome$00"
+    - docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
 
 script:  
     #build the image
